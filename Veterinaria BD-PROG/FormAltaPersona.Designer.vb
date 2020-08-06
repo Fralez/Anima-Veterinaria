@@ -22,33 +22,31 @@ Partial Class FormAltaPersona
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.ButtonCrear = New System.Windows.Forms.Button()
+        Me.TextBoxCedula = New System.Windows.Forms.TextBox()
         Me.LblCedula = New System.Windows.Forms.Label()
         Me.LblName = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBoxNombre = New System.Windows.Forms.TextBox()
         Me.LblAddress = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.LblPhones = New System.Windows.Forms.Label()
-        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
+        Me.TextBoxDir = New System.Windows.Forms.TextBox()
         Me.LblTitle = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'Button1
+        'ButtonCrear
         '
-        Me.Button1.Location = New System.Drawing.Point(704, 400)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(85, 38)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "CREAR"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.ButtonCrear.Location = New System.Drawing.Point(704, 400)
+        Me.ButtonCrear.Name = "ButtonCrear"
+        Me.ButtonCrear.Size = New System.Drawing.Size(85, 38)
+        Me.ButtonCrear.TabIndex = 0
+        Me.ButtonCrear.Text = "CREAR"
+        Me.ButtonCrear.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'TextBoxCedula
         '
-        Me.TextBox1.Location = New System.Drawing.Point(12, 77)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(542, 20)
-        Me.TextBox1.TabIndex = 1
+        Me.TextBoxCedula.Location = New System.Drawing.Point(12, 77)
+        Me.TextBoxCedula.Name = "TextBoxCedula"
+        Me.TextBoxCedula.Size = New System.Drawing.Size(542, 20)
+        Me.TextBoxCedula.TabIndex = 1
         '
         'LblCedula
         '
@@ -68,12 +66,12 @@ Partial Class FormAltaPersona
         Me.LblName.TabIndex = 4
         Me.LblName.Text = "Nombre"
         '
-        'TextBox2
+        'TextBoxNombre
         '
-        Me.TextBox2.Location = New System.Drawing.Point(12, 117)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(542, 20)
-        Me.TextBox2.TabIndex = 3
+        Me.TextBoxNombre.Location = New System.Drawing.Point(12, 117)
+        Me.TextBoxNombre.Name = "TextBoxNombre"
+        Me.TextBoxNombre.Size = New System.Drawing.Size(542, 20)
+        Me.TextBoxNombre.TabIndex = 3
         '
         'LblAddress
         '
@@ -84,29 +82,12 @@ Partial Class FormAltaPersona
         Me.LblAddress.TabIndex = 6
         Me.LblAddress.Text = "Direccion"
         '
-        'TextBox3
+        'TextBoxDir
         '
-        Me.TextBox3.Location = New System.Drawing.Point(12, 159)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(542, 20)
-        Me.TextBox3.TabIndex = 5
-        '
-        'LblPhones
-        '
-        Me.LblPhones.AutoSize = True
-        Me.LblPhones.Location = New System.Drawing.Point(12, 191)
-        Me.LblPhones.Name = "LblPhones"
-        Me.LblPhones.Size = New System.Drawing.Size(170, 13)
-        Me.LblPhones.TabIndex = 7
-        Me.LblPhones.Text = "Telefonos (separados por espacio)"
-        '
-        'RichTextBox1
-        '
-        Me.RichTextBox1.Location = New System.Drawing.Point(15, 207)
-        Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(539, 96)
-        Me.RichTextBox1.TabIndex = 8
-        Me.RichTextBox1.Text = ""
+        Me.TextBoxDir.Location = New System.Drawing.Point(12, 159)
+        Me.TextBoxDir.Name = "TextBoxDir"
+        Me.TextBoxDir.Size = New System.Drawing.Size(542, 20)
+        Me.TextBoxDir.TabIndex = 5
         '
         'LblTitle
         '
@@ -123,15 +104,13 @@ Partial Class FormAltaPersona
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(801, 450)
         Me.Controls.Add(Me.LblTitle)
-        Me.Controls.Add(Me.RichTextBox1)
-        Me.Controls.Add(Me.LblPhones)
         Me.Controls.Add(Me.LblAddress)
-        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.TextBoxDir)
         Me.Controls.Add(Me.LblName)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.TextBoxNombre)
         Me.Controls.Add(Me.LblCedula)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.TextBoxCedula)
+        Me.Controls.Add(Me.ButtonCrear)
         Me.Name = "FormAltaPersona"
         Me.Text = "Alta Persona"
         Me.ResumeLayout(False)
@@ -139,14 +118,12 @@ Partial Class FormAltaPersona
 
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents ButtonCrear As Button
+    Friend WithEvents TextBoxCedula As TextBox
     Friend WithEvents LblCedula As Label
     Friend WithEvents LblName As Label
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TextBoxNombre As TextBox
     Friend WithEvents LblAddress As Label
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents LblPhones As Label
-    Friend WithEvents RichTextBox1 As RichTextBox
+    Friend WithEvents TextBoxDir As TextBox
     Friend WithEvents LblTitle As Label
 End Class

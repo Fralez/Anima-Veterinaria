@@ -24,12 +24,12 @@ Partial Class FormAltaMascota
     Private Sub InitializeComponent()
         Me.LblTitle = New System.Windows.Forms.Label()
         Me.LblBirthDate = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBoxAnoNac = New System.Windows.Forms.TextBox()
         Me.LblName = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBoxNombre = New System.Windows.Forms.TextBox()
         Me.LblId = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.TextBoxId = New System.Windows.Forms.TextBox()
+        Me.ButtonCrear = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'LblTitle
@@ -50,12 +50,12 @@ Partial Class FormAltaMascota
         Me.LblBirthDate.TabIndex = 16
         Me.LblBirthDate.Text = "Año de nacimiento"
         '
-        'TextBox3
+        'TextBoxAnoNac
         '
-        Me.TextBox3.Location = New System.Drawing.Point(12, 154)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(542, 20)
-        Me.TextBox3.TabIndex = 15
+        Me.TextBoxAnoNac.Location = New System.Drawing.Point(12, 154)
+        Me.TextBoxAnoNac.Name = "TextBoxAnoNac"
+        Me.TextBoxAnoNac.Size = New System.Drawing.Size(542, 20)
+        Me.TextBoxAnoNac.TabIndex = 15
         '
         'LblName
         '
@@ -66,12 +66,12 @@ Partial Class FormAltaMascota
         Me.LblName.TabIndex = 14
         Me.LblName.Text = "Nombre"
         '
-        'TextBox2
+        'TextBoxNombre
         '
-        Me.TextBox2.Location = New System.Drawing.Point(12, 112)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(542, 20)
-        Me.TextBox2.TabIndex = 13
+        Me.TextBoxNombre.Location = New System.Drawing.Point(12, 112)
+        Me.TextBoxNombre.Name = "TextBoxNombre"
+        Me.TextBoxNombre.Size = New System.Drawing.Size(542, 20)
+        Me.TextBoxNombre.TabIndex = 13
         '
         'LblId
         '
@@ -82,21 +82,21 @@ Partial Class FormAltaMascota
         Me.LblId.TabIndex = 12
         Me.LblId.Text = "Id"
         '
-        'TextBox1
+        'TextBoxId
         '
-        Me.TextBox1.Location = New System.Drawing.Point(12, 72)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(542, 20)
-        Me.TextBox1.TabIndex = 11
+        Me.TextBoxId.Location = New System.Drawing.Point(12, 72)
+        Me.TextBoxId.Name = "TextBoxId"
+        Me.TextBoxId.Size = New System.Drawing.Size(542, 20)
+        Me.TextBoxId.TabIndex = 11
         '
-        'Button1
+        'ButtonCrear
         '
-        Me.Button1.Location = New System.Drawing.Point(704, 395)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(85, 38)
-        Me.Button1.TabIndex = 10
-        Me.Button1.Text = "CREAR"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.ButtonCrear.Location = New System.Drawing.Point(704, 395)
+        Me.ButtonCrear.Name = "ButtonCrear"
+        Me.ButtonCrear.Size = New System.Drawing.Size(85, 38)
+        Me.ButtonCrear.TabIndex = 10
+        Me.ButtonCrear.Text = "CREAR"
+        Me.ButtonCrear.UseVisualStyleBackColor = True
         '
         'FormAltaMascota
         '
@@ -105,12 +105,12 @@ Partial Class FormAltaMascota
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.LblTitle)
         Me.Controls.Add(Me.LblBirthDate)
-        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.TextBoxAnoNac)
         Me.Controls.Add(Me.LblName)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.TextBoxNombre)
         Me.Controls.Add(Me.LblId)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.TextBoxId)
+        Me.Controls.Add(Me.ButtonCrear)
         Me.Name = "FormAltaMascota"
         Me.Text = "Alta Mascota"
         Me.ResumeLayout(False)
@@ -120,10 +120,10 @@ Partial Class FormAltaMascota
 
     Friend WithEvents LblTitle As Label
     Friend WithEvents LblBirthDate As Label
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents TextBoxAnoNac As TextBox
     Friend WithEvents LblName As Label
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TextBoxNombre As TextBox
     Friend WithEvents LblId As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents TextBoxId As TextBox
+    Friend WithEvents ButtonCrear As Button
 End Class
