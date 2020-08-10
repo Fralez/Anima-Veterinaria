@@ -10,4 +10,12 @@
     Private Sub MascotaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MascotaToolStripMenuItem.Click
         FormAltaMascota.Show()
     End Sub
+
+    Private Sub TeléfonoDePersonaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TeléfonoDePersonaToolStripMenuItem.Click
+        FormAltaTelefonoPersona.Show()
+    End Sub
+
+    Private Sub PersonaToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles PersonaToolStripMenuItem1.Click
+        FormBuscarPersona.Show()
+    End Sub
 End Class

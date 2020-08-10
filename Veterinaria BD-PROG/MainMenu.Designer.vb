@@ -26,12 +26,15 @@ Partial Class FormMainMenu
         Me.AltasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PersonaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MascotaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TeléfonoDePersonaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BuscarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PersonaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AltasToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AltasToolStripMenuItem, Me.BuscarToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(800, 24)
@@ -40,7 +43,7 @@ Partial Class FormMainMenu
         '
         'AltasToolStripMenuItem
         '
-        Me.AltasToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PersonaToolStripMenuItem, Me.MascotaToolStripMenuItem})
+        Me.AltasToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PersonaToolStripMenuItem, Me.MascotaToolStripMenuItem, Me.TeléfonoDePersonaToolStripMenuItem})
         Me.AltasToolStripMenuItem.Name = "AltasToolStripMenuItem"
         Me.AltasToolStripMenuItem.Size = New System.Drawing.Size(45, 20)
         Me.AltasToolStripMenuItem.Text = "Altas"
@@ -48,14 +51,33 @@ Partial Class FormMainMenu
         'PersonaToolStripMenuItem
         '
         Me.PersonaToolStripMenuItem.Name = "PersonaToolStripMenuItem"
-        Me.PersonaToolStripMenuItem.Size = New System.Drawing.Size(119, 22)
+        Me.PersonaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.PersonaToolStripMenuItem.Text = "Persona"
         '
         'MascotaToolStripMenuItem
         '
         Me.MascotaToolStripMenuItem.Name = "MascotaToolStripMenuItem"
-        Me.MascotaToolStripMenuItem.Size = New System.Drawing.Size(119, 22)
+        Me.MascotaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.MascotaToolStripMenuItem.Text = "Mascota"
+        '
+        'TeléfonoDePersonaToolStripMenuItem
+        '
+        Me.TeléfonoDePersonaToolStripMenuItem.Name = "TeléfonoDePersonaToolStripMenuItem"
+        Me.TeléfonoDePersonaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TeléfonoDePersonaToolStripMenuItem.Text = "Teléfono de persona"
+        '
+        'BuscarToolStripMenuItem
+        '
+        Me.BuscarToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PersonaToolStripMenuItem1})
+        Me.BuscarToolStripMenuItem.Name = "BuscarToolStripMenuItem"
+        Me.BuscarToolStripMenuItem.Size = New System.Drawing.Size(54, 20)
+        Me.BuscarToolStripMenuItem.Text = "Buscar"
+        '
+        'PersonaToolStripMenuItem1
+        '
+        Me.PersonaToolStripMenuItem1.Name = "PersonaToolStripMenuItem1"
+        Me.PersonaToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.PersonaToolStripMenuItem1.Text = "Persona"
         '
         'FormMainMenu
         '
@@ -76,4 +98,7 @@ Partial Class FormMainMenu
     Friend WithEvents AltasToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PersonaToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents MascotaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents TeléfonoDePersonaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents BuscarToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PersonaToolStripMenuItem1 As ToolStripMenuItem
 End Class

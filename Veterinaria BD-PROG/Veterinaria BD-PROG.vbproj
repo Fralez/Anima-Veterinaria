@@ -164,6 +164,18 @@
   <ItemGroup>
     <Compile Include="Entidades\Mascotas.vb" />
     <Compile Include="Entidades\Personas.vb" />
+    <Compile Include="FormAltaTelefonoPersona.Designer.vb">
+      <DependentUpon>FormAltaTelefonoPersona.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAltaTelefonoPersona.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBuscarPersona.Designer.vb">
+      <DependentUpon>FormBuscarPersona.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormBuscarPersona.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Logica\LogicaMascotas.vb" />
     <Compile Include="Logica\LogicaPersonas.vb" />
     <Compile Include="MainMenu.Designer.vb">
@@ -211,6 +223,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormAltaPersona.resx">
       <DependentUpon>FormAltaPersona.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAltaTelefonoPersona.resx">
+      <DependentUpon>FormAltaTelefonoPersona.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBuscarPersona.resx">
+      <DependentUpon>FormBuscarPersona.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.vb</DependentUpon>
