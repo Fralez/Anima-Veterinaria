@@ -4,7 +4,7 @@
             Dim ci As Integer
             ci = TextBoxCedula.Text
 
-            Dim telefono As String
+            Dim telefono As Integer
             telefono = TextBoxTelefono.Text
 
             Dim logica = New LogicaPersonas
