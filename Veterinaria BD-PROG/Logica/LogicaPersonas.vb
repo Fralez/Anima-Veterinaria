@@ -15,4 +15,10 @@
 
         Return persistencia.BuscarPersona(ci)
     End Function
+
+    Public Sub ModificarPersona(ci As Integer, nombre As String, direccion As String)
+        Dim persistencia As New PersistenciaPersonas
+
+        persistencia.ModificarPersona(ci, nombre, direccion)
+    End Sub
 End Class

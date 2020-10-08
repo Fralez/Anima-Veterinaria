@@ -70,8 +70,8 @@ Partial Class FormMainMenu
         '
         Me.BuscarToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PersonaToolStripMenuItem1})
         Me.BuscarToolStripMenuItem.Name = "BuscarToolStripMenuItem"
-        Me.BuscarToolStripMenuItem.Size = New System.Drawing.Size(54, 20)
-        Me.BuscarToolStripMenuItem.Text = "Buscar"
+        Me.BuscarToolStripMenuItem.Size = New System.Drawing.Size(117, 20)
+        Me.BuscarToolStripMenuItem.Text = "Buscar y Modificar"
         '
         'PersonaToolStripMenuItem1
         '

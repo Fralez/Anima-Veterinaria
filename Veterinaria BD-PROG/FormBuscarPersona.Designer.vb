@@ -28,6 +28,9 @@ Partial Class FormBuscarPersona
         Me.LblCedula = New System.Windows.Forms.Label()
         Me.TextBoxCedula = New System.Windows.Forms.TextBox()
         Me.ButtonBuscar = New System.Windows.Forms.Button()
+        Me.TextBoxNombre = New System.Windows.Forms.TextBox()
+        Me.TextBoxDireccion = New System.Windows.Forms.TextBox()
+        Me.ButtonModificar = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'LblTitle
@@ -42,7 +45,7 @@ Partial Class FormBuscarPersona
         'LblAddress
         '
         Me.LblAddress.AutoSize = True
-        Me.LblAddress.Location = New System.Drawing.Point(12, 138)
+        Me.LblAddress.Location = New System.Drawing.Point(11, 139)
         Me.LblAddress.Name = "LblAddress"
         Me.LblAddress.Size = New System.Drawing.Size(55, 13)
         Me.LblAddress.TabIndex = 16
@@ -51,7 +54,7 @@ Partial Class FormBuscarPersona
         'LblName
         '
         Me.LblName.AutoSize = True
-        Me.LblName.Location = New System.Drawing.Point(12, 111)
+        Me.LblName.Location = New System.Drawing.Point(11, 112)
         Me.LblName.Name = "LblName"
         Me.LblName.Size = New System.Drawing.Size(47, 13)
         Me.LblName.TabIndex = 14
@@ -75,18 +78,44 @@ Partial Class FormBuscarPersona
         '
         'ButtonBuscar
         '
-        Me.ButtonBuscar.Location = New System.Drawing.Point(704, 395)
+        Me.ButtonBuscar.Location = New System.Drawing.Point(560, 66)
         Me.ButtonBuscar.Name = "ButtonBuscar"
-        Me.ButtonBuscar.Size = New System.Drawing.Size(85, 38)
+        Me.ButtonBuscar.Size = New System.Drawing.Size(71, 30)
         Me.ButtonBuscar.TabIndex = 10
         Me.ButtonBuscar.Text = "BUSCAR"
         Me.ButtonBuscar.UseVisualStyleBackColor = True
+        '
+        'TextBoxNombre
+        '
+        Me.TextBoxNombre.Location = New System.Drawing.Point(64, 109)
+        Me.TextBoxNombre.Name = "TextBoxNombre"
+        Me.TextBoxNombre.Size = New System.Drawing.Size(542, 20)
+        Me.TextBoxNombre.TabIndex = 18
+        '
+        'TextBoxDireccion
+        '
+        Me.TextBoxDireccion.Location = New System.Drawing.Point(72, 135)
+        Me.TextBoxDireccion.Name = "TextBoxDireccion"
+        Me.TextBoxDireccion.Size = New System.Drawing.Size(534, 20)
+        Me.TextBoxDireccion.TabIndex = 19
+        '
+        'ButtonModificar
+        '
+        Me.ButtonModificar.Location = New System.Drawing.Point(15, 170)
+        Me.ButtonModificar.Name = "ButtonModificar"
+        Me.ButtonModificar.Size = New System.Drawing.Size(133, 30)
+        Me.ButtonModificar.TabIndex = 20
+        Me.ButtonModificar.Text = "MODIFICAR PERSONA"
+        Me.ButtonModificar.UseVisualStyleBackColor = True
         '
         'FormBuscarPersona
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.ButtonModificar)
+        Me.Controls.Add(Me.TextBoxDireccion)
+        Me.Controls.Add(Me.TextBoxNombre)
         Me.Controls.Add(Me.LblTitle)
         Me.Controls.Add(Me.LblAddress)
         Me.Controls.Add(Me.LblName)
@@ -106,4 +135,7 @@ Partial Class FormBuscarPersona
     Friend WithEvents LblCedula As Label
     Friend WithEvents TextBoxCedula As TextBox
     Friend WithEvents ButtonBuscar As Button
+    Friend WithEvents TextBoxNombre As TextBox
+    Friend WithEvents TextBoxDireccion As TextBox
+    Friend WithEvents ButtonModificar As Button
 End Class

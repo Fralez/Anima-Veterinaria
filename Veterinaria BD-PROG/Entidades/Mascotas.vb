@@ -2,7 +2,7 @@
     Private _id As Integer
     Private _nombre As String
     Private _anoNacimiento As Integer
-    Private _dueno As Personas
+    Private _dueno_ci As Integer
 
     Public Property Id As Integer
         Get
@@ -31,19 +31,19 @@
         End Set
     End Property
 
-    Public Property Dueno As Personas
+    Public Property DuenoCi As Integer
         Get
-            Return _dueno
+            Return _dueno_ci
         End Get
-        Set(value As Personas)
-            _dueno = value
+        Set(value As Integer)
+            _dueno_ci = value
         End Set
     End Property
 
-    Public Sub Mascotas(id_ As Integer, nombre_ As String, anoNacimiento_ As Integer, dueno_ As Personas)
+    Public Sub Mascotas(id_ As Integer, nombre_ As String, anoNacimiento_ As Integer, dueno_ci As Integer)
         Id = id_
         Nombre = nombre_
         AnoNacimiento = anoNacimiento_
-        Dueno = dueno_
+        DuenoCi = dueno_ci
     End Sub
 End Class

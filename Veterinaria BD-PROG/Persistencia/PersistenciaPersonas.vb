@@ -83,4 +83,30 @@
             conexion.Close()
         End Try
     End Function
+
+    Public Sub ModificarPersona(ci As Integer, nombre As String, direccion As String)
+        Try
+            Dim persona As New Personas
+            Dim classcnn As New Conexion
+            conexion = classcnn.AbrirConexion
+
+            Dim cmd = New Npgsql.NpgsqlCommand
+
+            cmd.Connection = conexion
+
+            Dim query As String
+            query = "UPDATE PERSONAS SET nombre = @nombre, direccion = @direccion WHERE ci = @ci"
+
+            cmd.CommandText = query
+            cmd.Parameters.Add("@ci", NpgsqlTypes.NpgsqlDbType.Integer).Value = ci
+            cmd.Parameters.Add("@nombre", NpgsqlTypes.NpgsqlDbType.Varchar, 50).Value = nombre
+            cmd.Parameters.Add("@direccion", NpgsqlTypes.NpgsqlDbType.Varchar, 50).Value = direccion
+
+            Dim lector As Npgsql.NpgsqlDataReader = cmd.ExecuteReader()
+        Catch ex As Exception
+            Throw ex
+        Finally
+            conexion.Close()
+        End Try
+    End Sub
 End Class
