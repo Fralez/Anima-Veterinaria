@@ -170,6 +170,12 @@
     <Compile Include="FormAltaTelefonoPersona.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormBuscarPersona.Designer.vb">
+      <DependentUpon>FormBuscarPersona.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormBuscarPersona.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormListarPersonas.Designer.vb">
       <DependentUpon>FormListarPersonas.vb</DependentUpon>
     </Compile>
@@ -226,6 +232,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormAltaTelefonoPersona.resx">
       <DependentUpon>FormAltaTelefonoPersona.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBuscarPersona.resx">
+      <DependentUpon>FormBuscarPersona.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormListarPersonas.resx">
       <DependentUpon>FormListarPersonas.vb</DependentUpon>

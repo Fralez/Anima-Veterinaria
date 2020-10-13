@@ -31,6 +31,10 @@ Partial Class FormBuscarPersona
         Me.TextBoxNombre = New System.Windows.Forms.TextBox()
         Me.TextBoxDireccion = New System.Windows.Forms.TextBox()
         Me.ButtonModificar = New System.Windows.Forms.Button()
+        Me.ListBoxTelefonos = New System.Windows.Forms.ListBox()
+        Me.ButtonRemoveSelectedTel = New System.Windows.Forms.Button()
+        Me.ButtonAddTel = New System.Windows.Forms.Button()
+        Me.TextBoxAddTel = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'LblTitle
@@ -108,11 +112,48 @@ Partial Class FormBuscarPersona
         Me.ButtonModificar.Text = "MODIFICAR PERSONA"
         Me.ButtonModificar.UseVisualStyleBackColor = True
         '
+        'ListBoxTelefonos
+        '
+        Me.ListBoxTelefonos.FormattingEnabled = True
+        Me.ListBoxTelefonos.Location = New System.Drawing.Point(15, 206)
+        Me.ListBoxTelefonos.Name = "ListBoxTelefonos"
+        Me.ListBoxTelefonos.Size = New System.Drawing.Size(591, 238)
+        Me.ListBoxTelefonos.TabIndex = 21
+        '
+        'ButtonRemoveSelectedTel
+        '
+        Me.ButtonRemoveSelectedTel.Location = New System.Drawing.Point(612, 408)
+        Me.ButtonRemoveSelectedTel.Name = "ButtonRemoveSelectedTel"
+        Me.ButtonRemoveSelectedTel.Size = New System.Drawing.Size(176, 30)
+        Me.ButtonRemoveSelectedTel.TabIndex = 22
+        Me.ButtonRemoveSelectedTel.Text = "Eliminar Seleccionado"
+        Me.ButtonRemoveSelectedTel.UseVisualStyleBackColor = True
+        '
+        'ButtonAddTel
+        '
+        Me.ButtonAddTel.Location = New System.Drawing.Point(612, 232)
+        Me.ButtonAddTel.Name = "ButtonAddTel"
+        Me.ButtonAddTel.Size = New System.Drawing.Size(176, 30)
+        Me.ButtonAddTel.TabIndex = 23
+        Me.ButtonAddTel.Text = "Agregar Telefono"
+        Me.ButtonAddTel.UseVisualStyleBackColor = True
+        '
+        'TextBoxAddTel
+        '
+        Me.TextBoxAddTel.Location = New System.Drawing.Point(612, 206)
+        Me.TextBoxAddTel.Name = "TextBoxAddTel"
+        Me.TextBoxAddTel.Size = New System.Drawing.Size(176, 20)
+        Me.TextBoxAddTel.TabIndex = 24
+        '
         'FormBuscarPersona
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.TextBoxAddTel)
+        Me.Controls.Add(Me.ButtonAddTel)
+        Me.Controls.Add(Me.ButtonRemoveSelectedTel)
+        Me.Controls.Add(Me.ListBoxTelefonos)
         Me.Controls.Add(Me.ButtonModificar)
         Me.Controls.Add(Me.TextBoxDireccion)
         Me.Controls.Add(Me.TextBoxNombre)
@@ -138,4 +179,8 @@ Partial Class FormBuscarPersona
     Friend WithEvents TextBoxNombre As TextBox
     Friend WithEvents TextBoxDireccion As TextBox
     Friend WithEvents ButtonModificar As Button
+    Friend WithEvents ListBoxTelefonos As ListBox
+    Friend WithEvents ButtonRemoveSelectedTel As Button
+    Friend WithEvents ButtonAddTel As Button
+    Friend WithEvents TextBoxAddTel As TextBox
 End Class

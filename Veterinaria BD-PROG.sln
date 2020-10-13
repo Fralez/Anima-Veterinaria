@@ -5,6 +5,13 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Veterinaria BD-PROG", "Veterinaria BD-PROG\Veterinaria BD-PROG.vbproj", "{C7B4E08C-3C0F-4A0C-8921-8B91E30E4A76}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3F02B69A-CCF6-462E-BB34-702154877CBD}"
+	ProjectSection(SolutionItems) = preProject
+		Veterinaria BD-PROG\FormBuscarPersona.Designer.vb = Veterinaria BD-PROG\FormBuscarPersona.Designer.vb
+		Veterinaria BD-PROG\FormBuscarPersona.resx = Veterinaria BD-PROG\FormBuscarPersona.resx
+		Veterinaria BD-PROG\FormBuscarPersona.vb = Veterinaria BD-PROG\FormBuscarPersona.vb
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
