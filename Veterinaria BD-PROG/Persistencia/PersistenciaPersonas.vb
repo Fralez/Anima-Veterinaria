@@ -200,6 +200,13 @@
             cmd.Connection = conexion
 
             Dim query As String
+            query = "DELETE FROM TELEFONOS WHERE ci = @ci"
+
+            cmd.CommandText = query
+            cmd.Parameters.Add("@ci", NpgsqlTypes.NpgsqlDbType.Integer).Value = ci
+
+            cmd.ExecuteNonQuery()
+
             query = "DELETE FROM PERSONAS WHERE ci = @ci"
 
             cmd.CommandText = query

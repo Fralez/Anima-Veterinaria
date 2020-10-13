@@ -35,6 +35,7 @@ Partial Class FormBuscarPersona
         Me.ButtonRemoveSelectedTel = New System.Windows.Forms.Button()
         Me.ButtonAddTel = New System.Windows.Forms.Button()
         Me.TextBoxAddTel = New System.Windows.Forms.TextBox()
+        Me.ButtonEliminarPersona = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'LblTitle
@@ -145,11 +146,21 @@ Partial Class FormBuscarPersona
         Me.TextBoxAddTel.Size = New System.Drawing.Size(176, 20)
         Me.TextBoxAddTel.TabIndex = 24
         '
+        'ButtonEliminarPersona
+        '
+        Me.ButtonEliminarPersona.Location = New System.Drawing.Point(154, 170)
+        Me.ButtonEliminarPersona.Name = "ButtonEliminarPersona"
+        Me.ButtonEliminarPersona.Size = New System.Drawing.Size(133, 30)
+        Me.ButtonEliminarPersona.TabIndex = 25
+        Me.ButtonEliminarPersona.Text = "ELIMINAR PERSONA"
+        Me.ButtonEliminarPersona.UseVisualStyleBackColor = True
+        '
         'FormBuscarPersona
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.ButtonEliminarPersona)
         Me.Controls.Add(Me.TextBoxAddTel)
         Me.Controls.Add(Me.ButtonAddTel)
         Me.Controls.Add(Me.ButtonRemoveSelectedTel)
@@ -183,4 +194,5 @@ Partial Class FormBuscarPersona
     Friend WithEvents ButtonRemoveSelectedTel As Button
     Friend WithEvents ButtonAddTel As Button
     Friend WithEvents TextBoxAddTel As TextBox
+    Friend WithEvents ButtonEliminarPersona As Button
 End Class

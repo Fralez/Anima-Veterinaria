@@ -43,4 +43,18 @@
         Catch ex As Exception
         End Try
     End Sub
+
+    Private Sub ButtonEliminarPersona_Click(sender As Object, e As EventArgs) Handles ButtonEliminarPersona.Click
+        Try
+            Dim logica = New LogicaPersonas
+            logica.EliminarPersona(TextBoxCedula.Text)
+
+            TextBoxCedula.Clear()
+            TextBoxDireccion.Clear()
+            TextBoxNombre.Clear()
+            TextBoxAddTel.Clear()
+            ListBoxTelefonos.Items.Clear()
+        Catch ex As Exception
+        End Try
+    End Sub
 End Class
