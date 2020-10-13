@@ -18,7 +18,6 @@
             Dim logica = New LogicaMascotas
             logica.AltaMascota(ci, nombre, anoNacimiento)
         Catch ex As Exception
-            Throw ex
         End Try
     End Sub
 End Class

@@ -170,10 +170,10 @@
     <Compile Include="FormAltaTelefonoPersona.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormBuscarPersona.Designer.vb">
-      <DependentUpon>FormBuscarPersona.vb</DependentUpon>
+    <Compile Include="FormListarPersonas.Designer.vb">
+      <DependentUpon>FormListarPersonas.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormBuscarPersona.vb">
+    <Compile Include="FormListarPersonas.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Logica\LogicaMascotas.vb" />
@@ -227,8 +227,8 @@
     <EmbeddedResource Include="FormAltaTelefonoPersona.resx">
       <DependentUpon>FormAltaTelefonoPersona.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormBuscarPersona.resx">
-      <DependentUpon>FormBuscarPersona.vb</DependentUpon>
+    <EmbeddedResource Include="FormListarPersonas.resx">
+      <DependentUpon>FormListarPersonas.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.vb</DependentUpon>

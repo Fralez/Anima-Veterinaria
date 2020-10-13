@@ -10,7 +10,6 @@
             Dim logica = New LogicaPersonas
             logica.AltaTelefono(ci, telefono)
         Catch ex As Exception
-            Throw ex
         End Try
     End Sub
 End Class

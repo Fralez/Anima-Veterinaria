@@ -18,4 +18,8 @@
     Private Sub PersonaToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles PersonaToolStripMenuItem1.Click
         FormBuscarPersona.Show()
     End Sub
+
+    Private Sub PersonasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PersonasToolStripMenuItem.Click
+        FormListarPersonas.Show()
+    End Sub
 End Class

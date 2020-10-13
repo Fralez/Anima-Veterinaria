@@ -16,9 +16,21 @@
         Return persistencia.BuscarPersona(ci)
     End Function
 
-    Public Sub ModificarPersona(ci As Integer, nombre As String, direccion As String)
+    Public Sub ModificarPersona(persona As Personas)
         Dim persistencia As New PersistenciaPersonas
 
-        persistencia.ModificarPersona(ci, nombre, direccion)
+        persistencia.ModificarPersona(persona)
+    End Sub
+
+    Public Function ListarPersonas() As List(Of Personas)
+        Dim persistencia As New PersistenciaPersonas
+
+        Return persistencia.ListarPersona()
+    End Function
+
+    Public Sub EliminarPersona(ci As Integer)
+        Dim persistencia = New PersistenciaPersonas
+
+        persistencia.EliminarPersona(ci)
     End Sub
 End Class
