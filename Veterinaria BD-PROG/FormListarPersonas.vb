@@ -1,6 +1,7 @@
 ﻿Public Class FormListarPersonas
     Private Sub ListarButton_Click(sender As Object, e As EventArgs) Handles ListarButton.Click
         Try
+            PersonasListBox.Items.Clear()
             Dim logica = New LogicaPersonas
             Dim listaPersonas As List(Of Personas)
 
