@@ -162,18 +162,19 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entidades\Mascotas.vb" />
-    <Compile Include="Entidades\Personas.vb" />
-    <Compile Include="FormAltaTelefonoPersona.Designer.vb">
-      <DependentUpon>FormAltaTelefonoPersona.vb</DependentUpon>
+    <Compile Include="Entidades\Mascota.vb" />
+    <Compile Include="Entidades\Persona.vb" />
+    <Compile Include="Entidades\Telefono.vb" />
+    <Compile Include="FormAltaTelefono.Designer.vb">
+      <DependentUpon>FormAltaTelefono.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormAltaTelefonoPersona.vb">
+    <Compile Include="FormAltaTelefono.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormBuscarPersona.Designer.vb">
-      <DependentUpon>FormBuscarPersona.vb</DependentUpon>
+    <Compile Include="FormAdministrarPersona.Designer.vb">
+      <DependentUpon>FormAdministrarPersona.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormBuscarPersona.vb">
+    <Compile Include="FormAdministrarPersona.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormListarPersonas.Designer.vb">
@@ -182,8 +183,9 @@
     <Compile Include="FormListarPersonas.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Logica\LogicaMascotas.vb" />
-    <Compile Include="Logica\LogicaPersonas.vb" />
+    <Compile Include="Logica\LogicaMascota.vb" />
+    <Compile Include="Logica\LogicaPersona.vb" />
+    <Compile Include="Logica\LogicaTelefono.vb" />
     <Compile Include="MainMenu.Designer.vb">
       <DependentUpon>MainMenu.vb</DependentUpon>
     </Compile>
@@ -220,8 +222,9 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="Persistencia\Conexion.vb" />
-    <Compile Include="Persistencia\PersistenciaMascotas.vb" />
-    <Compile Include="Persistencia\PersistenciaPersonas.vb" />
+    <Compile Include="Persistencia\PersistenciaMascota.vb" />
+    <Compile Include="Persistencia\PersistenciaPersona.vb" />
+    <Compile Include="Persistencia\PersistenciaTelefono.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="FormAltaMascota.resx">
@@ -230,11 +233,11 @@
     <EmbeddedResource Include="FormAltaPersona.resx">
       <DependentUpon>FormAltaPersona.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormAltaTelefonoPersona.resx">
-      <DependentUpon>FormAltaTelefonoPersona.vb</DependentUpon>
+    <EmbeddedResource Include="FormAltaTelefono.resx">
+      <DependentUpon>FormAltaTelefono.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormBuscarPersona.resx">
-      <DependentUpon>FormBuscarPersona.vb</DependentUpon>
+    <EmbeddedResource Include="FormAdministrarPersona.resx">
+      <DependentUpon>FormAdministrarPersona.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormListarPersonas.resx">
       <DependentUpon>FormListarPersonas.vb</DependentUpon>

@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class FormAltaTelefonoPersona
+Partial Class FormAltaTelefono
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -35,9 +35,9 @@ Partial Class FormAltaTelefonoPersona
         Me.LblTitle.AutoSize = True
         Me.LblTitle.Location = New System.Drawing.Point(12, 25)
         Me.LblTitle.Name = "LblTitle"
-        Me.LblTitle.Size = New System.Drawing.Size(167, 13)
+        Me.LblTitle.Size = New System.Drawing.Size(94, 13)
         Me.LblTitle.TabIndex = 14
-        Me.LblTitle.Text = "ALTA TELÉFONO DE PERSONA"
+        Me.LblTitle.Text = "ALTA TELÉFONO"
         '
         'LblTelefono
         '

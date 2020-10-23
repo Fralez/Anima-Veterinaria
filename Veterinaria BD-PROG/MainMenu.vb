@@ -12,11 +12,11 @@
     End Sub
 
     Private Sub TeléfonoDePersonaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TeléfonoDePersonaToolStripMenuItem.Click
-        FormAltaTelefonoPersona.Show()
+        FormAltaTelefono.Show()
     End Sub
 
     Private Sub PersonaToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles PersonaToolStripMenuItem1.Click
-        FormBuscarPersona.Show()
+        FormAdministrarPersona.Show()
     End Sub
 
     Private Sub PersonasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PersonasToolStripMenuItem.Click

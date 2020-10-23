@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class FormBuscarPersona
+Partial Class FormAdministrarPersona
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -43,9 +43,9 @@ Partial Class FormBuscarPersona
         Me.LblTitle.AutoSize = True
         Me.LblTitle.Location = New System.Drawing.Point(12, 18)
         Me.LblTitle.Name = "LblTitle"
-        Me.LblTitle.Size = New System.Drawing.Size(106, 13)
+        Me.LblTitle.Size = New System.Drawing.Size(137, 13)
         Me.LblTitle.TabIndex = 17
-        Me.LblTitle.Text = "BUSCAR PERSONA"
+        Me.LblTitle.Text = "ADMINISTRAR PERSONA"
         '
         'LblAddress
         '
@@ -92,9 +92,9 @@ Partial Class FormBuscarPersona
         '
         'TextBoxNombre
         '
-        Me.TextBoxNombre.Location = New System.Drawing.Point(64, 109)
+        Me.TextBoxNombre.Location = New System.Drawing.Point(72, 109)
         Me.TextBoxNombre.Name = "TextBoxNombre"
-        Me.TextBoxNombre.Size = New System.Drawing.Size(542, 20)
+        Me.TextBoxNombre.Size = New System.Drawing.Size(534, 20)
         Me.TextBoxNombre.TabIndex = 18
         '
         'TextBoxDireccion
@@ -108,9 +108,9 @@ Partial Class FormBuscarPersona
         '
         Me.ButtonModificar.Location = New System.Drawing.Point(15, 170)
         Me.ButtonModificar.Name = "ButtonModificar"
-        Me.ButtonModificar.Size = New System.Drawing.Size(133, 30)
+        Me.ButtonModificar.Size = New System.Drawing.Size(160, 30)
         Me.ButtonModificar.TabIndex = 20
-        Me.ButtonModificar.Text = "MODIFICAR PERSONA"
+        Me.ButtonModificar.Text = "APLICAR MODIFICACIÓN"
         Me.ButtonModificar.UseVisualStyleBackColor = True
         '
         'ListBoxTelefonos
@@ -148,14 +148,14 @@ Partial Class FormBuscarPersona
         '
         'ButtonEliminarPersona
         '
-        Me.ButtonEliminarPersona.Location = New System.Drawing.Point(154, 170)
+        Me.ButtonEliminarPersona.Location = New System.Drawing.Point(473, 170)
         Me.ButtonEliminarPersona.Name = "ButtonEliminarPersona"
         Me.ButtonEliminarPersona.Size = New System.Drawing.Size(133, 30)
         Me.ButtonEliminarPersona.TabIndex = 25
         Me.ButtonEliminarPersona.Text = "ELIMINAR PERSONA"
         Me.ButtonEliminarPersona.UseVisualStyleBackColor = True
         '
-        'FormBuscarPersona
+        'FormAdministrarPersona
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -174,7 +174,7 @@ Partial Class FormBuscarPersona
         Me.Controls.Add(Me.LblCedula)
         Me.Controls.Add(Me.TextBoxCedula)
         Me.Controls.Add(Me.ButtonBuscar)
-        Me.Name = "FormBuscarPersona"
+        Me.Name = "FormAdministrarPersona"
         Me.Text = "FormBuscarPersona"
         Me.ResumeLayout(False)
         Me.PerformLayout()

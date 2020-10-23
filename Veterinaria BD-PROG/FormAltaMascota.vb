@@ -15,7 +15,7 @@
             Dim anoNacimiento As String
             anoNacimiento = TextBoxAnoNac.Text
 
-            Dim logica = New LogicaMascotas
+            Dim logica = New LogicaMascota
             logica.AltaMascota(ci, nombre, anoNacimiento)
         Catch ex As Exception
         End Try
