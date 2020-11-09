@@ -165,6 +165,12 @@
     <Compile Include="Entidades\Mascota.vb" />
     <Compile Include="Entidades\Persona.vb" />
     <Compile Include="Entidades\Telefono.vb" />
+    <Compile Include="FormAdministrarMascota.Designer.vb">
+      <DependentUpon>FormAdministrarMascota.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdministrarMascota.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormAltaTelefono.Designer.vb">
       <DependentUpon>FormAltaTelefono.vb</DependentUpon>
     </Compile>
@@ -175,6 +181,12 @@
       <DependentUpon>FormAdministrarPersona.vb</DependentUpon>
     </Compile>
     <Compile Include="FormAdministrarPersona.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormListarMascotas.Designer.vb">
+      <DependentUpon>FormListarMascotas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormListarMascotas.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormListarPersonas.Designer.vb">
@@ -227,6 +239,9 @@
     <Compile Include="Persistencia\PersistenciaTelefono.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FormAdministrarMascota.resx">
+      <DependentUpon>FormAdministrarMascota.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormAltaMascota.resx">
       <DependentUpon>FormAltaMascota.vb</DependentUpon>
     </EmbeddedResource>
@@ -238,6 +253,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormAdministrarPersona.resx">
       <DependentUpon>FormAdministrarPersona.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormListarMascotas.resx">
+      <DependentUpon>FormListarMascotas.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormListarPersonas.resx">
       <DependentUpon>FormListarPersonas.vb</DependentUpon>

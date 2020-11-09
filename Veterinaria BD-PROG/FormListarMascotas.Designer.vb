@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class FormListarPersonas
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class FormListarMascotas
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()>
+    <System.Diagnostics.DebuggerNonUserCode()> _
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,29 +20,30 @@ Partial Class FormListarPersonas
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()>
+    <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.PersonasListBox = New System.Windows.Forms.ListBox()
+        Me.MascotasListBox = New System.Windows.Forms.ListBox()
         Me.SuspendLayout()
         '
-        'PersonasListBox
+        'MascotasListBox
         '
-        Me.PersonasListBox.FormattingEnabled = True
-        Me.PersonasListBox.Location = New System.Drawing.Point(12, 5)
-        Me.PersonasListBox.Name = "PersonasListBox"
-        Me.PersonasListBox.Size = New System.Drawing.Size(776, 433)
-        Me.PersonasListBox.TabIndex = 1
+        Me.MascotasListBox.FormattingEnabled = True
+        Me.MascotasListBox.Location = New System.Drawing.Point(12, 18)
+        Me.MascotasListBox.Name = "MascotasListBox"
+        Me.MascotasListBox.Size = New System.Drawing.Size(776, 420)
+        Me.MascotasListBox.TabIndex = 0
         '
-        'FormListarPersonas
+        'FormListarMascotas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.PersonasListBox)
-        Me.Name = "FormListarPersonas"
-        Me.Text = "FormListarPersonas"
+        Me.Controls.Add(Me.MascotasListBox)
+        Me.Name = "FormListarMascotas"
+        Me.Text = "FormListarMascotas"
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents PersonasListBox As ListBox
+
+    Friend WithEvents MascotasListBox As ListBox
 End Class

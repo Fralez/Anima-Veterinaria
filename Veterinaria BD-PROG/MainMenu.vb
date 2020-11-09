@@ -22,4 +22,12 @@
     Private Sub PersonasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PersonasToolStripMenuItem.Click
         FormListarPersonas.Show()
     End Sub
+
+    Private Sub MascotaToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles MascotaToolStripMenuItem1.Click
+        FormAdministrarMascota.Show()
+    End Sub
+
+    Private Sub MascotasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MascotasToolStripMenuItem.Click
+        FormListarMascotas.Show()
+    End Sub
 End Class
